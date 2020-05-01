@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home
+</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<script src="bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<style>
+.cc{
+    background-color:black;
+    color:whitesmoke;
+}
+
+.containerr {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerr:hover .image {
+  opacity: 0.3;
+}
+
+.containerr:hover .middle {
+  opacity: 1;
+}
+.bb{
+    border:2px double #696969;
+    background-color:#696969;
+    
+    margin:5px 0px 0px 120px;
+}
+.bbb{
+    border:2px double #696969;
+    background-color:#696969;
+    margin:5px 0px 0px 120px;
+}
+
+
+</style>
+</head>
+<body class="cc">
+<header> <div style="float:right;">
+  <a href="index.html"><button type="button" class="btn btn-danger">Landing Page</button></a> &nbsp;
+  <a href="home.html"><button type="button" class="btn btn-success">Home</button></a> &nbsp;
+    <a href="about.html"><button type="button" class="btn btn-danger">About Me</button></a> &nbsp;
+    <a href="skills.html"><button type="button" class="btn btn-danger">Skills</button></a> &nbsp;
+    <a href="work.html"><button type="button" class="btn btn-danger">My Work</button></a> &nbsp;
+  </div> </header><br><br>
+  <div class="container bb">
+      <div class="row">
+          <div class="col-md-3">
+            <br>
+            <br>
+            <h2><b>Hi , I'm</b></h2>
+            <h2 class="text-danger"><b>Rahul</b></h2>
+            <h2><b>Web Designer</b></h2>
+            
+            <footer class="text-warning">Frontend/Backend Developer</footer>
+            <footer class="text-warning">BTech CSE</footer>
+
+          </div>
+          <div class="col-md-8">
+              <br><br>
+              
+            <img align="left" src="index000.jpg" class="rounded-circle" height="55%", width="30%"> 
+          </div>
+
+          <div class="col-md-1 " >
+            <h3 align="center"><b>Social Links</b></h3>
+           <a href="www.linkedin.com/in/rahul-kumar-59b325148"> <div class="containerr">
+            <img src="indxx111.jpg" class="img-fluid rounded-circle image">
+            <div class="middle">
+            <div class="text">LinkedIn</div>
+            </div></a>
+            </div><br>
+           
+            <div class="containerr">
+            <a href="https://github.com/RahulKumar86"><img src="indxx222.jpg" class="img-fluid rounded-circle image">
+            <div class="middle">
+            <div class="text">Github</div>
+            </div></a>
+            </div><br>
+        
+            <div class="containerr">
+            <a href="https://www.facebook.com/rahul.prakash.cs"><img src="indxx333.jpg" class="img-fluid rounded-circle image">
+            <div class="middle">
+            <div class="text">Facebook</div>
+            </div></a>
+            </div>
+           <br>
+     
+          </div>
+      </div>
+</div>
+<div class="container bbb">
+    <div class="row">
+        <div class="col-md-7"><br>
+            <h5 class="text-warning"><b><mark>Video Resume:</mark></b></h5>
+            <video class="kk" height="300" width="450" controls>
+                <source src="indexvideoo.mp4" type="video/mp4">
+                
+                Your browser does not support HTML5 video.
+              </video>
+        </div>
+        <div class="col-md-5">
+            <br>
+            <h5><b><ins><mark>PROFICIENCY</mark></ins></b></h5>
+            <ol>
+                <li><ins>FOR FRONTEND</ins>
+               <ul>
+                   <li>Html, Css, Javascript, JQuery, Angular-js, bootstrap</li>
+               </ul>
+               </li>
+               <li><ins>FOR BACKEND</ins>
+               <ul>
+                   <li>PHP, DATABASE(MySQL, Oracle Database, Mongo DB), Python</li>
+               </ul></li>
+               <li><ins>OTHER SKILLS</ins>
+               <ul><li>C, C++, Laravel, MVC Concept, Human Resource Management, Leadership</li></ul></li>
+            </ol>
+            
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+  $(document).ready(function(){
+   $('body').find('img[src$="https://cloud.githubusercontent.com/assests/23024110/20663010/9968df22-b55e-11e6-941d-edbc894c2b78.png"]').parent().closest('a').closest('div').remove();
+  });
+</script>

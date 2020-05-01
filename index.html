@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>My Portfolio
+</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<script src="bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="jquery-3.4.1.js"></script>
+<style>
+    .bb{
+    border:2px double #696969;
+    background-color:#696969;
+    opacity: 0.2;
+    
+    margin:5px 0px 0px 120px;
+}
+.cc{
+    background-color:black;
+    color:whitesmoke;
+}
+table,tr{
+    border:4px double #696969;
+
+    color: yellow;
+}
+</style>
+</head>
+<body class="cc">
+    <header> <div style="float:right;">
+        <a href="index.html"><button type="button" class="btn btn-success">Landing Page</button></a> &nbsp;
+       </div> </header> <br>
+       <br><br><br><br>
+    <div class="container cc">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="table-responsive">
+                <a href="home.html"><table class="table-hover">
+                    <tr>
+                        <td><img src="lp111.png" height="250px" width="200px"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></td>
+                    </tr>
+                    <tr>
+                        <td><p>This page includes video resume and proficiency.</p></td>
+                    </tr>
+                </table></a></div>
+             </div>
+             <div class="col-md-3">
+                <div class="table-responsive">
+                <a href="about.html"><table class="table-hover">
+                    <tr>
+                        <td><img src="lp444.png" height="250px" width="200px"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABOUT</b></td>
+                    </tr>
+                    <tr>
+                        <td><p>This page consists more information about myself.</p></td>
+                    </tr>
+                </table></a></div>
+             </div>
+             <div class="col-md-3">
+                <div class="table-responsive">
+               <a href="skills.html"> <table class="table-hover">
+                    <tr>
+                        <td><img src="lp222.png" height="250px" width="200px"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SKILLS</b></td>
+                    </tr>
+                    <tr>
+                        <td><p>This page consists of skill rating out of 100 units.</p></td>
+                    </tr>
+                </table></a></div>
+             </div>
+             <div class="col-md-3">
+                 <div class="table-responsive">
+                <a href="work.html"><table class="table-hover">
+                    <tr>
+                        <td><img src="lp333.png" height="250px" width="200px"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WORKS</b></td>
+                    </tr>
+                    <tr>
+                        <td><p>This page consist of some sample works.</p></td>
+                    </tr>
+                </table></a></div>
+             </div>
+             </div>
+             </div><br><br><br>
+             <div class="container bb">
+                 <div class="row">
+                     <div class="col-md-12">
+                        <footer>
+                           <b>NOTE:</b> <p>For any query contact me: <ins>rahulprakash.kumar@gmail.com</ins><br>
+                                  This website is only for Portfolio purpose.</p>
+                        </footer>
+                        </div>
+                 </div>
+             </div>
+             
+             <script>
+
+            $(document).ready(function(){
+              $("table").hover(function(){
+                  $(this).animate({height:'400px', width:'250px'});
+              },
+              function(){
+                 $("table").animate({height:'300px', width:'200px'});
+              
+            });
+            });
+            
+
+
+             </script>
+
+</body>
+</html>
